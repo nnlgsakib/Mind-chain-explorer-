@@ -1,0 +1,1163 @@
+yarn run v1.22.19
+warning ../package.json: No license field
+$ concurrently "node tools/sync.js " "node app.js" 
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+Emitted 'error' event on ReadStream instance at:
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at errorOrDestroy (node:internal/streams/destroy:220:7)
+    at node:internal/fs/streams:262:9
+    at FSReqCallback.wrapper [as oncomplete] (node:fs:671:5) {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn run v1.22.19
+warning ../package.json: No license field
+$ concurrently "node tools/sync.js " "node app.js" 
+[0] config.json found.
+[0] Connecting rpc-msc.mindchain.info:8545...
+[0] Checking for missing blocks
+[1] CONFIG FOUND: Node:rpc-msc.mindchain.info | Port:8545
+[0] Starting Full Sync
+[0] (node:42341) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+[0] (Use `node --trace-deprecation ...` to show where the warning was created)
+[1] Web3 connection established
+[0] (node:42341) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0] Patching from #11338 to #11363
+[0] Old block found. Starting block number = -1
+[0] *** Sync Finsihed ***
+[1] (node:42352) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/4.x/docs/connections.html#use-mongo-client
+[1] (Use `node --trace-deprecation ...` to show where the warning was created)
+[1] Express server listening on port 3000
+[0] 	- block #11341 inserted.
+[0] 	- block #11343 inserted.
+[0] 	- block #11344 inserted.
+[0] 	- block #11340 inserted.
+[0] 	- block #11345 inserted.
+[0] 	- block #11350 inserted.
+[0] 	- block #11355 inserted.
+[0] 	- block #11360 inserted.
+[0] 	- block #11339 inserted.
+[0] 	- block #11346 inserted.
+[0] 	- block #11351 inserted.
+[0] 	- block #11356 inserted.
+[0] 	- block #11361 inserted.
+[0] 	- block #11349 inserted.
+[0] 	- block #11354 inserted.
+[0] 	- block #11358 inserted.
+[0] 	- block #11338 inserted.
+[0] 	- block #11347 inserted.
+[0] 	- block #11353 inserted.
+[0] 	- block #11357 inserted.
+[0] 	- block #11362 inserted.
+[0] 	- block #11342 inserted.
+[0] 	- block #11348 inserted.
+[0] 	- block #11352 inserted.
+[0] 	- block #11359 inserted.
+[0] 	- block #11363 inserted.
+[0] *** Block Patching Completed ***
+[0] * 26 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xbfedab90b49031e72d02acd2d7f79f003fd230ed5c868625d16deac080f283ca
+[0] 	- block #11365 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x33d53d5dba03b0c03575921d9145278528d317ab38b8aac73e719b98c33d90d7
+[0] 	- block #11366 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0382bbd7e6086ecbae85aed5d069b4fde9e8498d7af2749dcbfff198d53a1f4f
+[0] 	- block #11367 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x3a1c1e1ab1f8aa40fbf57e6cde71cc41707a5153846be73a8a74768a883e470b
+[0] 	- block #11368 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xec9a192059e625a7a1c8d4ef3a843626f89351e9bb60f0c0eb0d9e1726d910e8
+[0] 	- block #11369 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0a6d949391868bc5aa1fa0d6e259887ad4ad41decc61ef4a95796248d3ce7795
+[0] 	- block #11370 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x9d505801c82d42518feafc5d9a36329069621ccff1fa897b8756303c50981b7a
+[0] 	- block #11371 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x4afb8d5fe8e906578ed5d43a1a87380c1f71865056bb619e0167f2570a6be4a4
+[0] 	- block #11372 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xe520d7d0f60489c9e8f38a88c37fa53f0cd8cd792d659f35f26682cc7ec07e90
+[0] 	- block #11373 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xdb2a5d838620ab599607b912a897a90333870bcb7a260390288874895c520011
+[0] 	- block #11374 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xd3ebe49b76ddda06c77639f16b71436e848319a299b8e3deddc055c7a5e8fc66
+[0] 	- block #11375 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x9b1fa0b0dbfd550c85b919a17282919ae95e664982b383307fac2ce03abd21d0
+[0] 	- block #11376 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x26f1dfc988e90e64f8f50692fa588ba45f561be9c1b094efcc149969c32e6879
+[0] 	- block #11377 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xcb1c5b2cd1ac72fda000eed7a2c9a71ef1026851ddc0c07ff442c496f56a33a7
+[0] 	- block #11378 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x8b6ee701302ec070c0b4c1181c669f9f265e1ded3c78beece087da0a608d7482
+[0] 	- block #11379 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /home [36m304[0m 5.034 ms - -[0m
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 1.230 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 1.193 ms - -[0m
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 0.311 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.652 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.856 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 1.107 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 1.160 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 1.297 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 1.105 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.547 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.773 ms - -[0m
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.291 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.453 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.284 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 0.341 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 0.223 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 0.507 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 0.558 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 0.521 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.791 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.693 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.757 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.888 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.452 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 0.640 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 0.641 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 0.780 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 0.858 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 0.503 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.644 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 1.566 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 1.722 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 1.842 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.541 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.423 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.520 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.176 ms - -[0m
+[1] [0mGET /css/todo-2.min.css [36m304[0m 1.466 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 1.581 ms - -[0m
+[1] [0mGET /js/controllers/HomeController.js [36m304[0m 1.599 ms - -[0m
+[1] [0mGET /views/home.html [36m304[0m 0.356 ms - -[0m
+[0] Found new block: 0xee1dde7588bb5d3fdecc7cfd9a52775e7f191a2b8c1c826662523b80059c2d24
+[1] (node:42352) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[1] [0mGET /views/simple-summary-stats.html [36m304[0m 12.088 ms - -[0m
+[1] [0mPOST /data [32m200[0m 8.618 ms - -[0m
+[1] [0mPOST /data [32m200[0m 20.879 ms - -[0m
+[1] [0mGET /img/social/github.png [36m304[0m 0.815 ms - -[0m
+[1] [0mGET /plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 [36m304[0m 0.433 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/fonts/Simple-Line-Icons.woff [36m304[0m 0.278 ms - -[0m
+[1] { action: 'hashrate' }
+[1] StatsWeb3: latest block: 11380
+[0] 	- block #11380 inserted.
+[0] * 1 blocks successfully written.
+[1] StatsWeb3: check block: 11280
+[1] [0mPOST /web3relay [32m200[0m 47.360 ms - -[0m
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x891f1e8b9ae84a7b8101a2f206f63e0ea74e71b59dc06f1c3de11762c4f882fa
+[0] 	- block #11381 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /home [36m304[0m 0.875 ms - -[0m
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 0.810 ms - -[0m
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 0.776 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.729 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 0.735 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.303 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 0.328 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 0.761 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 0.739 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 0.687 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.691 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.302 ms - -[0m
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.313 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.784 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.750 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 0.722 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 0.721 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 0.297 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 0.373 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 0.963 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.915 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.930 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.949 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.189 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.186 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 1.800 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 1.830 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 1.834 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 0.397 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 0.405 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 0.436 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.387 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 0.173 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 0.160 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.400 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.214 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.174 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.176 ms - -[0m
+[1] [0mGET /css/todo-2.min.css [36m304[0m 0.183 ms - -[0m
+[1] [0mGET /js/controllers/HomeController.js [36m304[0m 0.203 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 1.042 ms - -[0m
+[1] [0mGET /views/home.html [36m304[0m 0.279 ms - -[0m
+[1] [0mGET /views/simple-summary-stats.html [36m304[0m 0.261 ms - -[0m
+[1] [0mPOST /data [32m200[0m 1.881 ms - -[0m
+[1] [0mPOST /data [32m200[0m 3.791 ms - -[0m
+[1] { action: 'hashrate' }
+[1] StatsWeb3: latest block: 11381
+[1] StatsWeb3: check block: 11281
+[1] [0mPOST /web3relay [32m200[0m 79.362 ms - -[0m
+[0] Found new block: 0xf1184ce3fcecd17cdb02c925a7078d714b506d797718b2cc4840d13fafa15d76
+[0] 	- block #11382 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xfb6f98a19bc7c8a1cc36d95f077e16c9abf33fb4042e1586b25ebfdce4af4a58
+[0] 	- block #11383 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /home [36m304[0m 1.180 ms - -[0m
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 2.708 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 2.659 ms - -[0m
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 2.620 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.753 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 0.385 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.374 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 0.215 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 0.827 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 0.813 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.808 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.745 ms - -[0m
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.149 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.213 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.323 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 1.368 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 1.327 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 1.283 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 0.750 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 0.174 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.331 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.880 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.816 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.773 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.762 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 0.147 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.832 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 0.639 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 0.592 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 0.886 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 0.137 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.162 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 0.397 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 0.407 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.545 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.411 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.434 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.176 ms - -[0m
+[1] [0mGET /css/todo-2.min.css [36m304[0m 0.700 ms - -[0m
+[1] [0mGET /js/controllers/HomeController.js [36m304[0m 0.701 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 1.548 ms - -[0m
+[1] [0mGET /views/home.html [36m304[0m 0.293 ms - -[0m
+[1] [0mGET /views/simple-summary-stats.html [36m304[0m 0.274 ms - -[0m
+[1] [0mPOST /data [32m200[0m 3.204 ms - -[0m
+[1] [0mPOST /data [32m200[0m 1.190 ms - -[0m
+[1] { action: 'hashrate' }
+[1] StatsWeb3: latest block: 11383
+[1] StatsWeb3: check block: 11283
+[1] [0mPOST /web3relay [32m200[0m 81.038 ms - -[0m
+[0] Found new block: 0xb2b4e97b744a1e162bf937c1c49d9cb01a7c43a8d38eeec17d9bdc9570bc322e
+[0] 	- block #11384 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x8508eb5b28559942d0264ad02da5dc728b1009552547cd9ade1b01311011def2
+[0] 	- block #11385 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xd4fa2ecdc1dd6cf6b261ed5607776b0c7517c31d83555fdec2ef9c0d7f9842fd
+[0] 	- block #11386 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x313d0a7fb6508741462f37abcb289b155c884f104bbcd91efa31264e3ceff634
+[0] 	- block #11387 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x930f4b0bbb1ab3c6f9fa91e1bc83f98f388b8c67bb16145ee5c4d533a8ea8671
+[0] 	- block #11388 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x685513cdc408ec0d7449213cfef4300ed0b80b9088330b97f0dbb8db447e0e49
+[0] 	- block #11389 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x5c66341e4657527a88bcfb11d1d47e3bfb76b91e9f97f3489968171628ecdedc
+[0] 	- block #11390 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x7c3847edc2c27eb3f8a9dafec8beff165b39d6f49ceee78c0393b08502925afe
+[0] 	- block #11391 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2cc89c262d67a2bf2596fe8e4d3dc46c14bcf3555d872c18d4bf0233afe81d18
+[0] 	- block #11392 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x564f93db49524a4a6b81b71389e95c7d729e08edb1705f95d6fe823c3af51da7
+[0] 	- block #11393 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /home [36m304[0m 0.868 ms - -[0m
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 0.269 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 0.193 ms - -[0m
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 0.215 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.416 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.597 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 0.551 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 0.705 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 0.811 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 0.238 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.728 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.793 ms - -[0m
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.855 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.957 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.194 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 0.858 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 1.029 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 1.159 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 1.239 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 0.602 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.193 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.277 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.746 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.804 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.887 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 1.045 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 0.179 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.862 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 0.742 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 0.815 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.899 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 1.012 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 0.209 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 0.238 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.338 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.452 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.645 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.199 ms - -[0m
+[1] [0mGET /css/todo-2.min.css [36m304[0m 0.475 ms - -[0m
+[1] [0mGET /js/controllers/HomeController.js [36m304[0m 0.669 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.910 ms - -[0m
+[1] [0mGET /views/home.html [36m304[0m 0.267 ms - -[0m
+[1] [0mGET /views/simple-summary-stats.html [36m304[0m 2.616 ms - -[0m
+[1] [0mPOST /data [32m200[0m 3.086 ms - -[0m
+[1] [0mPOST /data [32m200[0m 5.279 ms - -[0m
+[1] [0mGET /img/social/github.png [36m304[0m 0.902 ms - -[0m
+[1] [0mGET /plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 [36m304[0m 0.845 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/fonts/Simple-Line-Icons.woff [36m304[0m 0.953 ms - -[0m
+[1] { action: 'hashrate' }
+[1] StatsWeb3: latest block: 11393
+[1] StatsWeb3: check block: 11293
+[1] [0mPOST /web3relay [32m200[0m 79.951 ms - -[0m
+[0] Found new block: 0xfe1003a36b8dfd22bd0068add4ff0b56eebe19d7638f49941781c6c90f59736a
+[0] 	- block #11394 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x4e3d60443a4fd00837366d5ad276768ebc3a315637e5ae90750795f7b46cb9c9
+[0] 	- block #11395 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa0ab78d68cd40be563681962b320e5dcd9b2c939c6a9612f173175f088741031
+[0] 	- block #11396 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xd450dc447440af820716d34b76899c95f7b6129d82cbf2e407d9d7a6a805cf01
+[0] 	- block #11397 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2d594caba79862c32d8adce47a6113db3fcad1b9c630bd75cb018d36a3eea46d
+[0] 	- block #11398 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xebf30ae424db101e58456b9af075cd00b8c3a97fbf0c4a0038606eea37b9481f
+[0] 	- block #11399 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x597250fa399a2e3a65b1d7aa1e7f6d96f0b5e76dc6ebabbb06763cdaed90b2de
+[0] 	- block #11400 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x50d4c9ededbaa4dcc2039bd03f99fe638111bbda6aeab83d12d2583e9f16dd26
+[0] 	- block #11401 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc6fce73353f7cc25b0e28659c06fb8cbf2cf2dbf7d9b6c163bd4d1f83c918b8a
+[0] 	- block #11402 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x258394f1705d5cea2f3a9f69441a751d3237210a6c34ac13fd285814006f5c58
+[0] 	- block #11403 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /home [36m304[0m 0.838 ms - -[0m
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 0.279 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 0.189 ms - -[0m
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 0.200 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.718 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 0.707 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.698 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 0.706 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 0.138 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 0.159 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.143 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.183 ms - -[0m
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.169 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.171 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 0.337 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.346 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 0.175 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 0.183 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 1.070 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 1.034 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.510 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.375 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.356 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.279 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.953 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 0.908 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 0.902 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 1.107 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 1.128 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 0.185 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.293 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 0.651 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 0.647 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 1.956 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.366 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.194 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.186 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.183 ms - -[0m
+[1] [0mGET /css/todo-2.min.css [36m304[0m 0.203 ms - -[0m
+[1] [0mGET /js/controllers/HomeController.js [36m304[0m 0.375 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.765 ms - -[0m
+[0] Found new block: 0xa7cebcf29112356187c1f6af93a6a43c509856f6b1fd085b4c348c36edc9814a
+[0] 	- block #11404 inserted.
+[0] * 1 blocks successfully written.
+[1] [0mGET /views/home.html [36m304[0m 0.212 ms - -[0m
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /views/simple-summary-stats.html [36m304[0m 1.421 ms - -[0m
+[1] [0mPOST /data [32m200[0m 2.982 ms - -[0m
+[1] [0mPOST /data [32m200[0m 1.193 ms - -[0m
+[1] [0mGET /img/social/github.png [36m304[0m 0.203 ms - -[0m
+[1] [0mGET /plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 [36m304[0m 3.503 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/fonts/Simple-Line-Icons.woff [36m304[0m 0.137 ms - -[0m
+[1] { action: 'hashrate' }
+[1] StatsWeb3: latest block: 11404
+[1] StatsWeb3: check block: 11304
+[1] [0mPOST /web3relay [32m200[0m 78.605 ms - -[0m
+[0] Found new block: 0x76ad2753ef2bd1efc3a3ea4824e660a29d3a2a43a0eee165621f6689a2549a18
+[0] 	- block #11405 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2fb81fec1067ae9991a0e426b9854968e375a1ecf88f25bd7d317337d20eead0
+[0] 	- block #11406 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc3f12ba5adfec56ee35b2b9366338b05a625a1decfcdec442b36bdfee6110a39
+[0] 	- block #11407 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x45ddc64ce5cfbae983f7808f0ad4a68af8cf773eef6427612ae41e43a3ebe608
+[0] 	- block #11408 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa10661c5c0a3f80b675bfbf2e99438ebe4195f75c73434df5619fd24a934fefb
+[0] 	- block #11409 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1166dbf82031273ea363d5efd9e79a6287a286d49ab28e18d566a8f33ce5bc64
+[0] 	- block #11410 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xbbb367672c10e5bbfe1a62bd13252ce5db5a64f181d31a42f409b3769d7add1b
+[0] 	- block #11411 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x7eeab2aa2db01de6c1fc9d69ab4c302e613b2561e33362a1468e43bdf6b93407
+[0] 	- block #11412 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x6047e3a5318c1ec7e136f09319f2e7b30fe1cd3812eeaf7908efbe9b62d72e23
+[0] 	- block #11413 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x123e93a777dcdac1773c940b37c40d2086881c01ca55bffd5e4227235a89d816
+[0] 	- block #11414 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x56dcaf6d9b8b8882d5c4557ec8ae40d5fdb451b257cb15407af7830810b7595c
+[0] 	- block #11415 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /plugins/datatables/datatables.min.css [36m304[0m 1.042 ms - -[0m
+[1] [0mGET /plugins/datatables/datatables.bootstrap.css [36m304[0m 1.650 ms - -[0m
+[1] [0mGET /js/controllers/AccountsController.js [32m200[0m 2.515 ms - 2150[0m
+[1] [0mGET /plugins/datatables/datatables.all.min.js [36m304[0m 1.100 ms - -[0m
+[1] [0mGET /plugins/datatables/datatable.min.js [36m304[0m 0.343 ms - -[0m
+[1] [0mGET /views/accounts.html [32m200[0m 0.495 ms - 1036[0m
+[1] [0mGET /plugins/datatables/images/sort_both.png [36m304[0m 0.235 ms - -[0m
+[1] [0mPOST /richlist [32m200[0m 3.644 ms - -[0m
+[1] [0mGET /plugins/datatables/images/sort_desc.png [36m304[0m 0.300 ms - -[0m
+[0] Found new block: 0xae61dd0f838058928c33ee6811e298dba5fe3b2e0d526549e994572d2e3f6b22
+[0] 	- block #11416 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x26f702747ea567c71bfa1c6144584ae9d278d136fd2dc2abffcffa303bbdbf65
+[0] 	- block #11417 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xab6a0c964a8086ad735f208318ce7ea8ef277fd5ad50732bb1c3e0e2355a39ff
+[0] 	- block #11418 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x6894aca774de9cdf9f9f784c1c322e2bff794d485d975f36a05501d4eaac43ce
+[0] 	- block #11419 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x224249604fc7de5e0b24c3ae51007bb30da29ea7aae02f6f869d0e2019f4518c
+[0] 	- block #11420 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1b31f49143f5225e4aedf790be3084f92e352adca67d63c39f0039ea91edb67f
+[0] 	- block #11421 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa420660b2c2ac847e0afdb1f37fed66dcb47738fd690761a629cb1195ca459d2
+[0] 	- block #11422 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x40300352e9d4e81c76aa17b931ce60e6d1b31140eeea81ad6ace5ec564e0e55f
+[0] 	- block #11423 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0a686bf9766ad9e9c77fc16e8871557a183cc03917c85c732a6546525403b860
+[0] 	- block #11424 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc47a0bb10f5d2529e6758819d39e5ba0d4dcdc5b4ad00279763c5385623e08c9
+[0] 	- block #11425 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x41a81855b766e709d76d52cec0bad7a43d27c4e1184cb3440ac7ea09c828dcc1
+[0] 	- block #11426 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1975f249cef49443c16dbe1b23b44cfbddd43a2e03c4cee25311bc37a3abe32b
+[0] 	- block #11427 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x729bb7c2e13f474047b44d444362ca023835d9a544ac5b634c1605f72a90983d
+[0] 	- block #11428 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x4ce8821e540963b19b65941fd20dc66f32d49c8f2282060f789e6c20f19c1721
+[0] 	- block #11429 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa1905d5c77a007d05113bbdd4ee5e698e508f63c63b892696124faa799e3dd9e
+[0] 	- block #11430 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc27c75965566d33476a5eff8dea267f614d5efc9fcd7dbc6722e3b307b3b1723
+[0] 	- block #11431 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2e842b40fd2f48c53fba3326c404dd9698b9158732d1dd4982451cbdfe7cf439
+[0] 	- block #11432 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x6df8135420e92134354e218ed1a944c2db96dcfbb9d05a5be28b2ea661c43543
+[0] 	- block #11433 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2a633b699c4361349042315199a07bc8dce21ce080e6695b1666e00908745d3d
+[0] 	- block #11434 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xbd539c9befe75793cfd82c0ceebcb13706a91e67209eaf13fc439fc3a75953d8
+[0] 	- block #11435 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xd7962be16b8a4f913ab28bbde00374e4fdebf3eaebe0c4a4e22fe62df97b02ad
+[0] 	- block #11436 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa2caf09ef2a7cb4bdc2e8a7ed2c1f6004d030d96e025198caf6816fced068462
+[0] 	- block #11437 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xb0a19a1063686344f32628e92bf1f75a4eead00fece27305eeae86b2f192e353
+[0] 	- block #11438 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2cfd041b65d80246fcef7129aff5a7589cd0d8700bbd5fdddc6e8549680acd9b
+[0] 	- block #11439 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x9447495a0dc95a7d24e94c636844edb1398799acdd79a839b89ea44b47c277d2
+[0] 	- block #11440 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xec79f0eab0f85941818268ae610da6fd48a61d76498ad627f6049e5736ec3c2e
+[0] 	- block #11441 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /accounts [32m200[0m 1.125 ms - 7306[0m
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 0.289 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 0.195 ms - -[0m
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 0.259 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.255 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.428 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 0.423 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 0.188 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 0.182 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 0.196 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.396 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.421 ms - -[0m
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.238 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.214 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.215 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 0.569 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 0.564 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 0.524 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 0.179 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 0.472 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.702 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.664 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.632 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.629 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.166 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 0.217 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 0.544 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 0.526 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 0.494 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 0.129 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.684 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.556 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 0.536 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 0.970 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.325 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.577 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.543 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.520 ms - -[0m
+[1] [0mGET /plugins/datatables/datatables.min.css [36m304[0m 0.165 ms - -[0m
+[1] [0mGET /plugins/datatables/datatables.bootstrap.css [36m304[0m 0.163 ms - -[0m
+[1] [0mGET /js/controllers/AccountsController.js [36m304[0m 0.238 ms - -[0m
+[1] [0mGET /plugins/datatables/datatables.all.min.js [36m304[0m 0.164 ms - -[0m
+[1] [0mGET /plugins/datatables/datatable.min.js [36m304[0m 0.346 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.836 ms - -[0m
+[1] [0mGET /views/accounts.html [36m304[0m 0.223 ms - -[0m
+[0] Found new block: 0x904bcc70de99a02a54079b92c5306c9b2675beb7bcd42f89b93396b3b47b1447
+[0] 	- block #11442 inserted.
+[0] * 1 blocks successfully written.
+[1] [0mPOST /richlist [32m200[0m 2.162 ms - -[0m
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /plugins/datatables/images/sort_both.png [36m304[0m 0.696 ms - -[0m
+[1] [0mGET /img/social/github.png [36m304[0m 0.691 ms - -[0m
+[1] [0mGET /plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 [36m304[0m 0.674 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/fonts/Simple-Line-Icons.woff [36m304[0m 0.673 ms - -[0m
+[1] [0mGET /plugins/datatables/images/sort_desc.png [36m304[0m 0.240 ms - -[0m
+[0] Found new block: 0x9ee643ccdbd2b4ad8d65db4b97eecb9239234f5629fa83ffd5fe833806cf6c9c
+[0] 	- block #11443 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa7d5e3557f8b6723ab35c48c8da3b4133e52ca9f78016957b57c59e91eccaa17
+[0] 	- block #11444 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2090bd9b6daaed959b6656e87a9447b1c67e0a94fbb92f3ad92e4684f68e6344
+[0] 	- block #11445 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x8cc1c17adda868f60c1d03d3eaca4249f297e73d87635c362621528592d4d141
+[0] 	- block #11446 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xdca1996a66567d02bfab468342df17f82ff5ede304a00cc1cb595b689bc68840
+[0] 	- block #11447 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /css/stats.css [32m200[0m 0.381 ms - 1410[0m
+[1] [0mGET /js/controllers/StatsController.js [32m200[0m 0.316 ms - 66746[0m
+[1] [0mGET /plugins/async.min.js [32m200[0m 0.279 ms - 21004[0m
+[1] [0mGET /plugins/moment/moment.min.js [32m200[0m 0.311 ms - 51638[0m
+[1] [0mGET /views/stats/index.html [32m200[0m 0.508 ms - 672[0m
+[1] getMinerStats(): blockNumber = 4247
+[1] [0mPOST /stats [32m200[0m 25.215 ms - -[0m
+[0] Found new block: 0x539c5c34c977cb4a5d4c93f893cf18801e8ae56e7b0bc5bd87f13fea2871d4bb
+[0] 	- block #11448 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0bc17e4cfbeadb8e306c6de68dc9294544dcff4d70a70f1e2c9d9318aa017615
+[0] 	- block #11449 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x9ff842696110f57a812d7a748de518d49da51903f1adc31f7ffa59e844c7ee41
+[0] 	- block #11450 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mPOST /stats [32m200[0m 2.237 ms - -[0m
+[0] Found new block: 0x5947a447bd4f30f83eeb19df4bfad09d33022ed361315a635a187210545649d5
+[0] 	- block #11451 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mPOST /stats [32m200[0m 1.482 ms - -[0m
+[0] Found new block: 0x2140f67191b464429b951483c057a05727c2dbff7de400e86dbaafece6122963
+[0] 	- block #11452 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x400cb47b7781e49d758131c31e081524df5f689ddd037862baf811d3f5bb7e38
+[0] 	- block #11453 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mPOST /stats [32m200[0m 1.496 ms - -[0m
+[0] Found new block: 0xc3d93625d9dfcb5fbf252d815f63d029088bac7de396715aad6b57ceac00216e
+[0] 	- block #11454 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x034e83d66d996ec80f6e9915760982132269ddd518d1df0b570c1ff2a29a742e
+[0] 	- block #11455 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] getTotalSupply: latest block: 11455
+[1] [0mPOST /supply [32m200[0m 3.448 ms - -[0m
+[0] Found new block: 0xd169a4f61eb8026c73d7e9bf30c848d2b6f510145304c993fc0ccbad7155e38d
+[0] 	- block #11456 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xafac30112dc10eae45d0463688fb65a5a49399563ca44429bbde85a0d55e5666
+[0] 	- block #11457 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1fe0de856155f1676a2614d3602b087fe7da1cd4a58142c834252dddd535759a
+[0] 	- block #11458 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1ff46c05c2a570957450f88340e356c07192153176d28c12d8b6af33b152dcf3
+[0] 	- block #11459 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x5e4422bdc5870081db2413ded3b819db2e33354e494ac940909e283244cd1afb
+[0] 	- block #11460 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc984d9a8c4f57fc32822f863604009a01d5ee3c6dd1383e17db0f033ead84281
+[0] 	- block #11461 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x87aa4c1d398d03162dfd2790890063ba6d7003d201bd28fea7019169efb1fafe
+[0] 	- block #11462 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x8f82a6cb98c25f3222e0e9c080e01848a261970f575d8a7fb94e7910b1632b1e
+[0] 	- block #11463 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x4018a4031b0d1b675ca335bf81f0db74cef5b4e4cab7f631ec8160ecee597825
+[0] 	- block #11464 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x81fddbdbf1d491e0e4b771d64e5caab73377a5da3d5ab6caad21f1f6d923ffe4
+[0] 	- block #11465 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xf1de2d38285586aedd91e43c7ca809deb64f2e3f4e98da4d0b2eacc19e3ff8a9
+[0] 	- block #11466 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x3bc945344822e811f7066daae60793d88cf3f267620405f776d11e5091c6ea0e
+[0] 	- block #11467 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x17f9f1f65aaa8749c907b325f2d5e071af4ffe10879e050c8585f72f7f93b8e7
+[0] 	- block #11468 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x5f1e0b0c09a603e4994790ab09694df8e350ef5840018d8422584c12d6ead14c
+[0] 	- block #11469 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc831aa25cf316d1cf4f45c8496d121e790f53215831ba2fdb86a16f6091c660a
+[0] 	- block #11470 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1a2df34f468ec33eb1d3282bd06b42a1426cf3ff7f1efa8eb1cdf99730ec8d26
+[0] 	- block #11471 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xe210c8d10d073670018f6018bc439dd5f7338c47a378ade50e9b6a91b651abcf
+[0] 	- block #11472 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x157499f3cb1eebdad3fbde01c5eee2eee965ebdf45415377f83a043daa02931a
+[0] 	- block #11473 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /stats/supply [32m200[0m 0.794 ms - 7306[0m
+[0] Found new block: 0x2671b346d63fdb3c6907e27cca0ff255cb575b0df27011bb2bbbf80ac1e40723
+[1] [0mGET /plugins/font-awesome/css/font-awesome.min.css [36m304[0m 0.231 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/simple-line-icons.min.css [36m304[0m 0.197 ms - -[0m
+[0] 	- block #11474 inserted.
+[0] * 1 blocks successfully written.
+[1] [0mGET /plugins/bootstrap/css/bootstrap.min.css [36m304[0m 0.819 ms - -[0m
+[1] [0mGET /plugins/uniform/css/uniform.default.css [36m304[0m 0.800 ms - -[0m
+[1] [0mGET /css/components.min.css [36m304[0m 0.870 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/css/bootstrap-switch.min.css [36m304[0m 0.811 ms - -[0m
+[1] [0mGET /css/plugins.min.css [36m304[0m 0.198 ms - -[0m
+[1] [0mGET /css/layout.css [36m304[0m 0.168 ms - -[0m
+[1] [0mGET /css/green-haze.min.css [36m304[0m 0.161 ms - -[0m
+[1] [0mGET /css/custom.css [36m304[0m 0.163 ms - -[0m
+[1] [0mGET /plugins/jquery.min.js [36m304[0m 0.158 ms - -[0m
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /plugins/bootstrap/js/bootstrap.min.js [36m304[0m 0.154 ms - -[0m
+[1] [0mGET /plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js [36m304[0m 0.452 ms - -[0m
+[1] [0mGET /plugins/jquery-slimscroll/jquery.slimscroll.min.js [36m304[0m 0.344 ms - -[0m
+[1] [0mGET /plugins/jquery.blockui.min.js [36m304[0m 0.376 ms - -[0m
+[1] [0mGET /plugins/jquery.cokie.min.js [36m304[0m 0.386 ms - -[0m
+[1] [0mGET /plugins/uniform/jquery.uniform.min.js [36m304[0m 0.209 ms - -[0m
+[1] [0mGET /plugins/bootstrap-switch/js/bootstrap-switch.min.js [36m304[0m 0.191 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular.min.js [36m304[0m 0.177 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-sanitize.min.js [36m304[0m 0.149 ms - -[0m
+[1] [0mGET /plugins/angularjs/angular-touch.min.js [36m304[0m 0.338 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/angular-ui-router.min.js [36m304[0m 0.384 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ocLazyLoad.min.js [36m304[0m 0.151 ms - -[0m
+[1] [0mGET /plugins/angularjs/plugins/ui-bootstrap-tpls.min.js [36m304[0m 0.532 ms - -[0m
+[1] [0mGET /js/web3utils.js [36m304[0m 0.515 ms - -[0m
+[1] [0mGET /js/app.min.js [36m304[0m 0.513 ms - -[0m
+[1] [0mGET /js/main.js [36m304[0m 0.496 ms - -[0m
+[1] [0mGET /js/filters.js [36m304[0m 0.445 ms - -[0m
+[1] [0mGET /js/directives.js [36m304[0m 0.427 ms - -[0m
+[1] [0mGET /js/layout.min.js [36m304[0m 0.831 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.603 ms - -[0m
+[1] [0mGET /plugins/lodash.min.js [36m304[0m 0.350 ms - -[0m
+[1] [0mGET /plugins/d3.v3.min.js [36m304[0m 0.305 ms - -[0m
+[1] [0mGET /config [36m304[0m 0.308 ms - -[0m
+[1] [0mGET /tpl/header.html [36m304[0m 0.278 ms - -[0m
+[1] [0mGET /tpl/page-head.html [36m304[0m 0.389 ms - -[0m
+[1] [0mGET /tpl/footer.html [36m304[0m 0.317 ms - -[0m
+[1] [0mGET /css/stats.css [36m304[0m 0.538 ms - -[0m
+[1] [0mGET /js/controllers/StatsController.js [36m304[0m 0.533 ms - -[0m
+[1] [0mGET /plugins/async.min.js [36m304[0m 0.528 ms - -[0m
+[1] [0mGET /plugins/moment/moment.min.js [36m304[0m 0.397 ms - -[0m
+[1] [0mGET /img/loading.gif [36m304[0m 0.824 ms - -[0m
+[1] [0mGET /views/stats/index.html [36m304[0m 0.239 ms - -[0m
+[1] getTotalSupply: latest block: 11474
+[1] [0mPOST /supply [32m200[0m 1.635 ms - -[0m
+[1] [0mGET /img/social/github.png [36m304[0m 0.211 ms - -[0m
+[1] [0mGET /plugins/simple-line-icons/fonts/Simple-Line-Icons.woff [36m304[0m 0.187 ms - -[0m
+[1] [0mGET /plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 [36m304[0m 0.241 ms - -[0m
+[0] Found new block: 0xa7391cd6b2495164e623de98320bd1ae2795fc7ea7f0a97a9f1a31f2f274bfb6
+[0] 	- block #11475 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x30f0c972b84009bac9b51162429128d09e6752b98db1b5a566a3f09c55438ff0
+[0] 	- block #11476 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x942a0fd618056180f75654fdabf2de6c4222a4be125db8aba684aa0ce7fe32ac
+[0] 	- block #11477 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xf05797ec74b2db7be92e90990681ee100c73db1432ce7153388a1d8ed08591f9
+[0] 	- block #11478 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x78c2067595912bbe9fe555d458e7abb2eb28d6e482703095e18b8ca5b8e80b07
+[0] 	- block #11479 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x864dedc500ac650f524aac4cd9186242c4ca21b2100ecee9953b29a2e8620381
+[0] 	- block #11480 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[1] [0mGET /css/todo-2.min.css [36m304[0m 0.233 ms - -[0m
+[1] [0mGET /js/controllers/HomeController.js [36m304[0m 0.200 ms - -[0m
+[1] [0mGET /views/home.html [36m304[0m 0.212 ms - -[0m
+[1] [0mGET /views/simple-summary-stats.html [36m304[0m 1.429 ms - -[0m
+[1] [0mPOST /data [32m200[0m 2.587 ms - -[0m
+[1] [0mPOST /data [32m200[0m 1.239 ms - -[0m
+[1] { action: 'hashrate' }
+[1] StatsWeb3: latest block: 11480
+[1] StatsWeb3: check block: 11380
+[1] [0mPOST /web3relay [32m200[0m 78.661 ms - -[0m
+[0] Found new block: 0x6aa8c33d3759cda3cb127987d8bd1a6e17c9e9b7bed9ccdd9e9dd0d21041f9a8
+[0] 	- block #11481 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x4a1b13025a4ebcae18cd244ce847edf2f7322cd525078df5be62391104c25be4
+[0] 	- block #11482 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xe37e3cc5f584535bb70999d3faab991132b4fabfa6ee224d02f73b22b213003a
+[0] 	- block #11483 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xb47a942fac65690b72e88d5f6aa3291054911710aa875620b05fef4ddd340fe9
+[0] 	- block #11484 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x7b854ac7bf34077f0d15e229cb7ab26b5f7b2ae187fc7ee368eb37f7653b86ad
+[0] 	- block #11485 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1af595816feacca8d9925b7aaf243536eb57c1f50e2e1cc21c0c36667ce53c25
+[0] 	- block #11486 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xe997f90a6c4cabf4bb056eb09d774066a68d53c4d02720bef1b39ee82bf90ede
+[0] 	- block #11487 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x41021929eec1b46961b599f0ffb2f718036b08ce47112b30d18c024f1181bb9a
+[0] 	- block #11488 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x5910088ad52716135158903b103c860f9e312842a5fd75172447bd3eae378fff
+[0] 	- block #11489 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x7f4cac07f61048081fd7a097c09de25873c2d13a42f279d42268ac3f904b68df
+[0] 	- block #11490 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa6de7f39c25f8cfabb79f579a59bd1a3c9d08737492c40394fca1af7ad2ac73b
+[0] 	- block #11491 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x7baa18b1a4e45ff44fe611f17364a6b2ac737c5c179bc22a5a2d2ca9a62b1b9e
+[0] 	- block #11492 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xed3591b35beeabbe8aefe39961318d57507c5adcc0491927d5404887636835e0
+[0] 	- block #11493 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xadd1569c7f3b43be593ad9411f1f37e6a11a100596d59942a78fa4cb5136e93d
+[0] 	- block #11494 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x6770d0a93355cb59031c995d8c186a24135af83c3cec42a70b8eb6a20b8f1e9e
+[0] 	- block #11495 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xf3717e2d23edb1bf6523c036074f3069bf6dd03d77aa6888177b9bbb7ef08d00
+[0] 	- block #11496 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x5bbbb9974aad2441965622f731c2891f32e01f0252b0049b7f40fdc04667c7ae
+[0] 	- block #11497 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x51fdb5dc8ba3ceba87e676c4c6334678f6075639e3619eef8887cb9f7db4c3be
+[0] 	- block #11498 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1246810be014d8febdd1f2791af8ae9b1849dd1845811bd201aad6a4b01b5dfe
+[0] 	- block #11499 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x668187dbca4aa2dfb9127bd4bbf60386109b682c1f42f4f2d228cc59af6d2611
+[0] 	- block #11500 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x237bef4a616259cf958e95f9dcc7c75389da203cd2247b1203546c4dd2897ae6
+[0] 	- block #11501 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1c21747f24f669fc74280f3b2b1747dc34bc9e09534e11f5f1d063eb03c848b9
+[0] 	- block #11502 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa3ba1426b10f1044a3e0e422007c9200b99accaa7f17d0193bf17cc2af1ca7ad
+[0] 	- block #11503 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0d53c35f6657d273c2e1230430b9705de111a185fcaeb41128fb2797ead80790
+[0] 	- block #11504 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x5e0f5ca722cc2e8ac5944164629ed44ab297e4241a8c88f2b0247ff3a38f7197
+[0] 	- block #11505 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xd3a7b811d5d112e36fb938f40071bdf98539b402e9e0e421b52c94fad8d89167
+[0] 	- block #11506 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc1490e0cfb8ef8dc153081bbd47e6f7bd0d7d1ab2e45cb07d842542ff25f129d
+[0] 	- block #11507 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc930c8d3674eee34573acb11ea1bb7892c7f07ee3a790dd2886fa1144a2a9130
+[0] 	- block #11508 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2279895a86a663859c599474425504968a4bedafc8812a25e16d023f8bea3ddd
+[0] Found new block: 0x2497ce519989accdc57eaa6f7741027d4f1a412c007c9d457cb34fabe8a82939
+[0] 	- block #11509 inserted.
+[0] * 1 blocks successfully written.
+[0] 	- block #11509 inserted.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xeadcd5c471327838a9eaffd4f94b1ebe24861b215abfc354bb0f6f8c0d0dedc4
+[0] 	- block #11510 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xb27e3bb55e11bee2111476fb23dd370c86f70a1437acaa38c0bb989c098993e5
+[0] 	- block #11511 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0c2a2d2e549b4f2955a893de3417f9dc2b0f09d2e01bb1eeacd96edc73f97ee0
+[0] 	- block #11512 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x6e695966c386a254f591b8b0e37cd705fe4ddc3cfe46103691af583749add0b9
+[0] 	- block #11513 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xdcdd265ad9e5573d3e03950444d626b5043fcffc6334224b991fd3217f674ef3
+[0] 	- block #11514 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x0636747040a7dd3d0dbf7eeac6b4aec3ded321bd85467a3db6f3089e0eab801c
+[0] 	- block #11515 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xcae2ffe98cf1b65b1bae7f869c0bfbec239bd2317a8c77f6c711a835cfcf4b06
+[0] 	- block #11516 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x3b065c83396099d640f9cb93809942951b4fee426f61ea4dfd17044ebd9de7e3
+[0] 	- block #11517 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xba6162291bb4c842b0fd7cc77bffcf2c95edfd9602facff788afa249caf0b730
+[0] 	- block #11518 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x035808464b34483673f16228c2066827f3f3478a2f963136d4cd3e5a0636ccbe
+[0] 	- block #11519 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xb9701bcf23eb8c9f11e73ce988619c27dbe8a65820dbde964e1e733d7e76f6ec
+[0] 	- block #11520 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xec649d594cc436cf9bad448aef2e2ae583cdbfd52cb4bec1e3ffe09cd9a304ae
+[0] 	- block #11521 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x41e2491168c66fdf0596c99c1fa28c01e8453bb045fc2d56334d1cbdb177f6e1
+[0] 	- block #11522 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xb5b061ad94eddd1ccfd20e7a4cdb2b5fb8bfbfa82096abb5d0ecdb19ac462695
+[0] 	- block #11523 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xc2d36d2853728405ae41a1fdc559289c2408fa6fa0a2070ca0c59033cd51efee
+[0] 	- block #11524 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xe54c5096d75f9c563324040820a46831dbe1504a509cb140a339f145c482e759
+[0] 	- block #11525 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xea1d6e9f1e0ad7308656af7ca98732c02534a7e1a227dbc2bb090fc40e51ebf3
+[0] 	- block #11526 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xf7965ddaf2eaf0bde744a36274050a9183cf02429945d0fd9b55e070779599fd
+[0] 	- block #11527 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xbff403f04daa42c2b7ce308e026e078c3b4a270eefa389c17c21557c12a6ded3
+[0] 	- block #11528 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x2f0009028624afe2ba2395265eb5165384bc3f8bb63ce46b8a0e364ca4b237d2
+[0] 	- block #11529 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xe682cce3337508f9484d194c159e2a973fad1fd089eb7efe08f6f090daa9f6d1
+[0] 	- block #11530 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x7da06409bb4f93a6c8f793c1cd42cff78a3cf213f490d6186f5f134ef0909384
+[0] 	- block #11531 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1a1940fc77078700be46c3b9cd9a111dc9202f9a60abb99a66450d8506ce13b7
+[0] 	- block #11532 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xbd52d385b40b06926cf2ceb503f0757b9986a965ce373bb34c3cc394b0cca4f2
+[0] 	- block #11533 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xf8219fa9674998525710e22d0cabcfbe82dabd51ab773fae747924b542e04b90
+[0] 	- block #11534 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xfad3f28d285860811d03b02e81522dd11aea98d9f0451285af09b240af656187
+[0] 	- block #11535 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xea3af553cb770d3a09928c24aaf98337230bad8c09b2491b1fda0132e99d4d81
+[0] 	- block #11536 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1402f1a3da0120ff64582849031954588d43c202276907231a78472bc264f3ed
+[0] 	- block #11537 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0x1046d1b78bfe06c3ebaa5f663aba501cdbf765875e842af9e8d7ee3c1499b4f6
+[0] 	- block #11538 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xa408869ad95ab02e00ef387efbc6b4c9292681180885dc5bf4fbc3f0f7eb788e
+[0] 	- block #11539 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xcdfea716fc35cb693c50b9433398fa5a3740c23e300109d4c9d2949835ae3b2a
+[0] 	- block #11540 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
+[0] Found new block: 0xf7f1baa6d3593cd3b3b9eec6cff3a6762ec7beadfcc488bb6efa508265fd05f2
+[0] 	- block #11541 inserted.
+[0] * 1 blocks successfully written.
+[0]  - upsert 0x0000000000000000000000000000000000000000 / balance = 1e-18
